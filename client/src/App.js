@@ -1,17 +1,15 @@
 import React, { Component } from 'react';
-import Body from './shared/Body';
+import Content from './shared/Content';
 import Navbar from './shared/Navbar';
-import { BrowserRouter as Router } from 'react-router-dom';
+import './styles/app.css';
 
 class App extends Component {
   render() {
     return (
-      <Router>
-        <div className="App">
-          <Navbar />
-          <Body />
-        </div>
-      </Router>
+      <div className="App">
+        <Navbar />
+        <Content>{this.props.children}</Content>
+      </div>
     );
   }
 }

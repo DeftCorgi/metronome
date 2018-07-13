@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit|Raleway|Roboto');
+
+body,
+html {
+  height: 100%;
+  color: #011c27;
+  font-family: 'Roboto';
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}

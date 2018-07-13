@@ -1,0 +1,50 @@
+/* Nav styles*/
+
+.Navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #e6e8e6;
+  width: 308px;
+  height: 100%;
+}
+
+.Navbar .NavHeader {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 13px;
+  position: relative;
+  top: 0;
+  text-align: center;
+  color: #c1292e;
+  font-size: 2em;
+  font-family: 'Kanit';
+  border-bottom: 1px solid #d0d1cf;
+  background: white;
+}
+
+.NavList {
+  list-style: none;
+  padding: 0px;
+}
+
+.NavItem {
+  font-size: 1.2em;
+  text-decoration: none;
+  display: block;
+  background: #e6e8e6;
+  padding: 16px 10px;
+  color: #011c27;
+  font-family: 'Roboto';
+}
+
+.NavItem:hover {
+  background: #d0d1cf;
+}
+
+.NavItemIcon {
+  width: 23px;
+  position: relative;
+  top: 2px;
+  margin-right: 10px;
+}
