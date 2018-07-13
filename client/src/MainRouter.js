@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Cats from './contexts/Cats';
 import App from './App';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Home from './pages/Home';
 
 class MainRouter extends Component {
   state = {
@@ -19,7 +19,9 @@ class MainRouter extends Component {
     return (
       <Router>
         <App>
-          <Route path="/" component={Cats} />
+          <Route exact path="/" component={Home} />
+          <Route exact path="/favourites" component={Home} />
+          <Route exact path="/about" component={Home} />
         </App>
       </Router>
     );

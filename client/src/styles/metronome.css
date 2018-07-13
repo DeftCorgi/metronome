@@ -1,0 +1,72 @@
+.Metronome {
+  border: 1px solid #e6e8e6;
+  max-width: 600px;
+}
+
+/* header */
+
+.MetronomeHeader {
+  padding: 20px 20px;
+  border-bottom: 1px solid #e6e8e6;
+}
+
+/* body */
+
+.MetronomeBody {
+  padding: 20px 20px;
+}
+
+.Metronome .BpmDisplay {
+  display: inline-block;
+  font-size: 4.5rem;
+  margin-bottom: 7px;
+}
+
+.MetronomeBody .Bpm {
+  color: gray;
+  font-size: 1.3rem;
+}
+
+/* controls */
+
+.Metronome .BpmControls {
+  display: flex;
+}
+
+.Metronome .BpmControlButton {
+  padding: none;
+  margin: none;
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background: #bac3ce;
+  font-size: 1.3rem;
+}
+
+.Metronome .BpmPlayButton {
+  width: 80px;
+  height: 80px;
+  background: #c1292e;
+  color: white;
+}
+
+.Metronome .BpmControlButton:hover {
+  cursor: pointer;
+}
+
+.Metronome .IconWrapper {
+  position: relative;
+  top: 3px;
+}
+
+/* slider */
+
+.BpmSlider {
+  flex: 1;
+  margin: 0px 10px;
+}
+
+.BpmSlider:hover {
+  cursor: pointer;
+}

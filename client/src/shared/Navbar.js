@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/nav.css';
 import Octicon from 'react-component-octicons';
 
@@ -15,10 +16,10 @@ class Navbar extends Component {
         <ul className="NavList">
           {navItems.map(item => (
             <li>
-              <a className="NavItem" href={item.link}>
+              <Link className="NavItem" to={item.link}>
                 <Octicon className="NavItemIcon" name={item.icon} />
                 {item.name}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>
